@@ -65,11 +65,11 @@ Kondisi  | Penyebab |Dampak  | Strategi Mitigasi
 ------------- | ------------- |------------- | -------------
 Ide Aplikasi Ditolak  | Kurang jelas dan kurang berorientasi pada penyelesaian suatu masalah.| Hal-hal yang telah dipersiapkan sebelumnya perlu untuk diperbaharui.  | Memastikan ide yang diambil harus jelas dan direncanakan dengan baik.
 Adanya beberapa hambatan selama penerapan/ stuck  | Hal ini terjadi karena kurangnya proses eksplorasi informasi. | Terdapat tahap-tahapan berikutnya yang tidak bisa diproses sebelum masalah terselesaikan.  | Menghubungi tutor/mentor untuk mendapatkan bimbingan dan arahan.
-Bencana Alam  | Content Cell | Content Cell  | Content Cell
-Sakit  | Content Cell | Content Cell  | Content Cell
-Adanya penundaan  | Content Cell | Content Cell  | Content Cell
-Source Code hilang  | Content Cell | Content Cell  | Content Cell
-Perangkat keras malfungsi dan jaringan yang kurang mendukung.  | Content Cell | Content Cell  | Content Cell
-Data Source  | Content Cell | Content Cell  | Content Cell
-financial  | Content Cell | Content Cell  | Content Cell
-Ujian  | Content Cell | Content Cell  | Content Cell
+Bencana Alam  | Adanya faktor dari alam yang tidak dapat diprediksi waktu terjadinya. | Akan mengurangi fokus dalam proses pengerjaan. | Selalu berprogres setiap harinya.
+Sakit  | Developer kurang menjaga kesehatan selama masa pembuatan website | Beberapa pekerjaan mungkin akan tertunda sehingga melebihi timeline yang sudah ditentukan.  | Selalu memperhatikan kesehatan dan istirahat secukupnya agar bisa mengerjakan secara maksimal.
+Adanya penundaan  | Mungkin ini akan bergantung pada keterampilan pribadi | Target dan rencana proyek yang tidak sesuai.  | Bagikan kemajuan secara teratur dan saling membantu untuk menyelesaikan proyek. 
+Source Code hilang  | Server Github mungkin down dan adanya kesalahan teknis. | Timeline yang sudah ditentukan tidak dapat terlaksana dengan baik.  |Selalu sinkronkan proyek ke penyimpanan repositori.
+Perangkat keras malfungsi dan jaringan yang kurang mendukung.  | Adanya kondisi seperti laptop lagging, web error, jaringan atau koneksi internet yang bermasalah. | Tidak dapat bekerja dengan baik pada proyek.| Wajib melakukan pemeliharaan terhadap perangkat keras dan memperhatikan berbagai sumber daya yang diperlukan.
+Data Source  | Kurangnya informasi Data | Menghambat implementasi website  | Mencari data open source
+financial  | Membutuhkan uang untuk deployment website | Tidak dapat mendeploy/hosting website  | Mencari sebuah layanan hosting gratis
+Ujian  | Terdapat ujian dari kampus | Menghambat implementasi website  | Mempersiapkan Materi Kuliah
