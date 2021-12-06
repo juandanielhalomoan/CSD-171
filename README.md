@@ -1,1 +1,75 @@
+
 # CSD-171
+
+Team ID: CSD-171
+
+Nama Anggota:
+
+F335R7351 - Juan Daniel Halomoan
+F014V6061 - Luh Putu Eka Nadya Wati
+
+Tema yang dipilih: Peraturan & Informasi Layanan Masyarakat
+
+Judul Proyek: Bali SpeakUp 
+
+Executive Summary: 
+Kekerasan dapat dialami setiap orang. Bentuk kekerasan yang terjadi dapat berupa diskriminasi, penganiayaan, kekerasan seksual seperti pemerkosaan dan kasus bullying. Kasus kekerasan terus mengalami peningkatan dari tahun ke tahun. Menurut Kemen PPPA mencatat terdapat 4.696 kasus kekerasan sejak 1 Januari - 19 Mei 2021. Banyak orang yang pernah mengalami kekerasan memutuskan untuk tidak melaporkan kekerasan yang dialaminya ke pihak berwajib. Berdasarkan survey dari IJRS dan INFID tahun 2020 menyatakan bahwa hal tersebut dikarenakan adanya rasa takut, malu, serta masih kurangnya pengetahuan/informasi terkait mekanisme pelaporan. Maka dari itu, kami berencana membangun website sebagai platform untuk melaporkan kasus-kasus kekerasan di tengah masyarakat.
+
+Project Scope & Deliverables: 
+Website yang akan dibangun merupakan website yang memberikan kesempatan bagi user untuk melakukan pelaporan terkait adanya tindakan kekerasan yang terjadi di tengah masyarakat. Target user dari website ini yaitu seluruh masyarakat yang berada di daerah Denpasar, Bali dan instansi terkait yang menangani kasus kekerasan. Dengan adanya aplikasi web ini diharapkan masyarakat tidak ragu lagi untuk melaporkan segala bentuk kekerasan yang terjadi sehingga kasus kekerasan dapat segera ditangani dan dapat menurunkan tingkat kasus kekerasan. Website yang dibangun dikhususkan untuk menangani berbagai jenis kasus kekerasan dan tidak mencakup pada pelaporan masalah atau kasus lainnya.
+Website ini akan dilengkapi beberapa fitur antara lain yaitu :
+Fitur Pelaporan
+Fitur ini merupakan fitur yang ditujukan kepada user atau pengguna website untuk melakukan pelaporan terkait kasus kekerasan.
+Fitur Daftar Laporan
+Pada fitur ini berfungsi untuk melihat riwayat laporan yang telah dibuat.
+Fitur Proses Laporan
+Fitur ini merupakan fitur yang digunakan oleh admin untuk menindaklanjuti laporan yang dibuat oleh user.
+Adapun beberapa tahapan yang akan dilakukan selama proses pengerjaan website yang akan berlangsung selama 5 minggu, tahap tersebut antara lain :
+
+
+Minggu Ke- | Kegiatan |
+--- | --- |
+1 | Pengumpulan kebutuhan dan membuat desain aplikasi web |
+2 | Evaluasi desain dan Development |
+3 | Tahap Development |
+4 | Testing dan Evaluasi Sistem |
+5 | Deploy Sistem |
+
+Project Schedule: 
+Project Schedule merupakan penjadwalan proyek yang pada kali ini disajikan dalam bentuk gantt chart. Berikut merupakan link untuk melihat project schedule yang telah disusun.
+
+https://docs.google.com/spreadsheets/d/1UzUkuqCVQJGAPX1xu4FDUNGo-r-7SNxC/edit?usp=sharing&ouid=103363979936135018622&rtpof=true&sd=true
+
+UserFlow
+![flowchart](https://user-images.githubusercontent.com/47490009/144805497-c2c5ff63-0842-44d8-94b6-d0e08919cc88.png)
+
+Project Resources: 
+- Sumber daya yang diperlukan dalam pengerjaan proyek antara lain:
+* Bahasa pemrograman yang akan digunakan yaitu HTML, CSS, Javascript dan NodeJS.
+* Memanfaatkan pengolahan Database.
+* Menggunakan Framework Bootstrap untuk mendukung pembuatan tampilan website.
+* Menggunakan layanan Google Cloud Computing untuk mendukung pembuatan website
+* Github: https://github.com/donjuan136/CSD-171 
+Berikut merupakan beberapa referensi yang menjadi dasar pembuatan website, antara lain :
+* http://ijrs.or.id/mengapa-korban-kekerasan-seksual-enggan-melapor/
+* http://ditjenpp.kemenkumham.go.id/index.php?option=com_content&view=article&id=647:kekerasan-dalam-rumah-tangga-kdrt-persoalan-privat-yang-jadi-persoalan-publik&catid=101&Itemid=181
+* http://news.unair.ac.id/2019/09/02/memahami-fenomena-bullying-di-kalangan-remaja-indonesia/
+* https://www.cnnindonesia.com/gaya-hidup/20210904114937-284-689678/psikolog-patriaki-buat-lelaki-malu-lapor-kekerasan-seksual
+* https://www.tempo.co/abc/5573/mengapa-perempuan-korban-pelecehan-seksual-cenderung-enggan-melapor
+
+Risk and Issue Management Plan: 
+
+Berikut merupakan beberapa faktor yang dapat menggagalkan atau menunda pembuatan proyek website yang akan dibangun dan perencanaan bagaimana mengidentifikasi serta menyelesaikan isu yang mungkin terjadi selama pengerjaan proyek. 
+
+Kondisi  | Penyebab |Dampak  | Strategi Mitigasi
+------------- | ------------- |------------- | -------------
+Ide Aplikasi Ditolak  | Kurang jelas dan kurang berorientasi pada penyelesaian suatu masalah.| Hal-hal yang telah dipersiapkan sebelumnya perlu untuk diperbaharui.  | Memastikan ide yang diambil harus jelas dan direncanakan dengan baik.
+Adanya beberapa hambatan selama penerapan/ stuck  | Hal ini terjadi karena kurangnya proses eksplorasi informasi. | Terdapat tahap-tahapan berikutnya yang tidak bisa diproses sebelum masalah terselesaikan.  | Menghubungi tutor/mentor untuk mendapatkan bimbingan dan arahan.
+Bencana Alam  | Content Cell | Content Cell  | Content Cell
+Sakit  | Content Cell | Content Cell  | Content Cell
+Adanya penundaan  | Content Cell | Content Cell  | Content Cell
+Source Code hilang  | Content Cell | Content Cell  | Content Cell
+Perangkat keras malfungsi dan jaringan yang kurang mendukung.  | Content Cell | Content Cell  | Content Cell
+Data Source  | Content Cell | Content Cell  | Content Cell
+financial  | Content Cell | Content Cell  | Content Cell
+Ujian  | Content Cell | Content Cell  | Content Cell
