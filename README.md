@@ -43,7 +43,8 @@ Project Schedule merupakan penjadwalan proyek yang pada kali ini disajikan dalam
 https://docs.google.com/spreadsheets/d/1UzUkuqCVQJGAPX1xu4FDUNGo-r-7SNxC/edit?usp=sharing&ouid=103363979936135018622&rtpof=true&sd=true
 
 UserFlow
-![flowchart](https://user-images.githubusercontent.com/47490009/144805497-c2c5ff63-0842-44d8-94b6-d0e08919cc88.png)
+* ![flowchart](https://user-images.githubusercontent.com/47490009/144805497-c2c5ff63-0842-44d8-94b6-d0e08919cc88.png)
+ 
 
 ## Project Resources: 
 - Sumber daya yang diperlukan dalam pengerjaan proyek antara lain:
