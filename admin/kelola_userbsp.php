@@ -54,13 +54,6 @@
         <div class="col-xxl-4 col-xl-12">
           <div class="card pt-5">
             <div class="card-body">
-            <?php if(isset($_GET['del']))
-            {?>
-									<div class="alert alert-error">
-										<button type="button" class="close" data-dismiss="alert">×</button>
-									<strong>Oh snap!</strong> 	<?php echo htmlentities($_SESSION['delmsg']);?><?php echo htmlentities($_SESSION['delmsg']="");?>
-									</div>
-            <?php } ?>
               <!--Table -->
               <table class="table table-bordered border-secondary">
                 <thead>

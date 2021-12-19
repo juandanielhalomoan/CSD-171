@@ -68,7 +68,7 @@
                             </label> <input class="fs-5" type="password" id="inputPassword" name="password" placeholder="Enter password" required>
                         </div>
                         <div class="row mb-3 px-3"> <button type="submit" name="submit" class="btn btn-danger text-center pt-3 pb-3 fs-4">Login</button></div>
-                        <a href="http://localhost/bsp/CSD-171/indexbsp.html"><h5 class="modal-title">Kembali ke halaman utama</h5></a>
+                        <a href="../index.php"><h5 class="modal-title">Kembali ke halaman utama</h5></a>
                     </div>
                 </div>
             </div>

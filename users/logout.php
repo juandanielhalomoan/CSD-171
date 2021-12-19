@@ -7,5 +7,5 @@
     session_unset();
 ?>
 <script language="javascript">
-    document.location="../indexbsp.html";
+    document.location="../index.php";
 </script>

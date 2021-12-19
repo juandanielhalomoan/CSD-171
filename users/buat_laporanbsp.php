@@ -17,8 +17,13 @@
     $complaintdetials=$_POST['complaindetails'];
     $compfile=$_FILES["compfile"]["name"];
     move_uploaded_file($_FILES["compfile"]["tmp_name"],"file/".$_FILES["compfile"]["name"]);
-    $query=mysqli_query($bd, "insert into laporan_user(id_user,kategori,nama_korban,kabupaten,alamat,detail_laporan,file_laporan) values('$uid','$kategori', '$korban', '$state', '$address', '$complaintdetials','$compfile')");
-
+    $sifat_laporan=$_POST['sifat_laporan'];
+    if($sifat_laporan=='tampilkan'){
+      $query=mysqli_query($bd, "insert into laporan_user(id_user,kategori,nama_korban,kabupaten,alamat,detail_laporan,file_laporan,sifat_laporan) values('$uid','$kategori', '$korban', '$state', '$address', '$complaintdetials','$compfile','$korban')");
+    }
+    else{
+    $query=mysqli_query($bd, "insert into laporan_user(id_user,kategori,nama_korban,kabupaten,alamat,detail_laporan,file_laporan,sifat_laporan) values('$uid','$kategori', '$korban', '$state', '$address', '$complaintdetials','$compfile','$sifat_laporan')");
+    }
     $sql=mysqli_query($bd, "select laporan_id from laporan_user order by laporan_id desc limit 1");
     while($row=mysqli_fetch_array($sql))
     {
@@ -141,6 +146,29 @@
                       <input class="form-control" type="file" name="compfile" id="formFile" value="">
                     </div>
                   </div>
+                  <fieldset class="row mb-3">
+                  <legend class="col-form-label col-sm-2 pt-0">Sifat Laporan</legend>
+                  <div class="col-sm-10">
+                    <div class="form-check">
+                      <input class="form-check-input" type="radio" name="sifat_laporan" id="gridRadios1" value="rahasia">
+                      <label class="form-check-label" for="gridRadios1">
+                        Rahasia
+                      </label>
+                    </div>
+                    <div class="form-check">
+                      <input class="form-check-input" type="radio" name="sifat_laporan" id="gridRadios2" value="anonim">
+                      <label class="form-check-label" for="gridRadios2">
+                        Anonim
+                      </label>
+                    </div>
+                    <div class="form-check">
+                      <input class="form-check-input" type="radio" name="sifat_laporan" id="gridRadios2" value="tampilkan">
+                      <label class="form-check-label" for="gridRadios2">
+                        Tampilkan
+                      </label>
+                    </div>
+                  </div>
+                </fieldset>
                   <div class="row mb-3">
                     <div class="col-sm-10">
                       <button type="submit" name="submit" class="btn btn-danger">Submit Laporan</button>

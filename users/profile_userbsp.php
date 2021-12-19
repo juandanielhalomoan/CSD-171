@@ -139,16 +139,18 @@
                   <!-- Profile Edit Form -->
                   <?php if($successmsg)
                   {?>
-                      <div class="alert alert-success alert-dismissable">
-                       <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
-                       <b>Berhasil diedit!</b> <?php echo htmlentities($successmsg);?></div>
+                       <div class="alert alert-success alert-dismissible fade show" role="alert">
+                          Berhasil diedit! <?php echo htmlentities($successmsg);?>
+                          <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                      </div>
                   <?php }?>
 
                   <?php if($errormsg)
                   {?>
-                      <div class="alert alert-danger alert-dismissable">
-                      <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
-                      <b>Gagal diedit!</b> </b> <?php echo htmlentities($errormsg);?></div>
+                      <div class="alert alert-secondary alert-dismissible fade show" role="alert">
+                        Gagal diedit ! <?php echo htmlentities($errormsg);?>
+                        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                      </div>
                   <?php }?>
                   <?php $query=mysqli_query($bd, "select * from users where email='".$_SESSION['login']."'");
                   while($row=mysqli_fetch_array($query)) 
@@ -210,15 +212,17 @@
                   <!-- Change Password Form -->
                   <?php if($successmsg)
                       {?>
-                      <div class="alert alert-success alert-dismissable">
-                       <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
-                      <b>Well done!</b> <?php echo htmlentities($successmsg);?></div>
+                        <div class="alert alert-success alert-dismissible fade show" role="alert">
+                          Berhasil diedit! <?php echo htmlentities($successmsg);?>
+                          <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                        </div>
                       <?php }?>
                       <?php if($errormsg)
                       {?>
-                      <div class="alert alert-danger alert-dismissable">
-                      <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
-                      <b>Oh snap!</b> </b> <?php echo htmlentities($errormsg);?></div>
+                        <div class="alert alert-secondary alert-dismissible fade show" role="alert">
+                          Gagal diedit ! <?php echo htmlentities($errormsg);?>
+                          <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                        </div>
                       <?php }?>
                   <form class="form-horizontal style-form" method="post" name="chngpwd" onSubmit="return valid();">
                     <div class="row mb-3">

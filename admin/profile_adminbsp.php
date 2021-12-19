@@ -117,10 +117,10 @@
                 <div class="tab-pane fade show active profile-edit pt-3">
 								<?php if(isset($_POST['submit']))
                 {?>
-									<div class="alert alert-success">
-										<button type="button" class="close" data-dismiss="alert">×</button>
-										<?php echo htmlentities($_SESSION['msg']);?><?php echo htmlentities($_SESSION['msg']="");?>
-									</div>
+									<div class="alert alert-success alert-dismissible fade show" role="alert">
+                    <?php echo htmlentities($_SESSION['msg']);?><?php echo htmlentities($_SESSION['msg']="");?>
+                    <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                  </div>
                 <?php } ?>
 
                   <!-- Profile Edit Form -->

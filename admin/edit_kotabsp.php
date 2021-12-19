@@ -62,10 +62,10 @@
               <div class="card-body pt-5">
 								<?php if(isset($_POST['submit']))
                 {?>
-									<div class="alert alert-success">
-										<button type="button" class="close" data-dismiss="alert">×</button>
-									  <strong>Berhasil!</strong>	<?php echo htmlentities($_SESSION['msg']);?><?php echo htmlentities($_SESSION['msg']="");?>
-									</div>
+									<div class="alert alert-success alert-dismissible fade show" role="alert">
+                    Berhasil! <?php echo htmlentities($_SESSION['msg']);?><?php echo htmlentities($_SESSION['msg']="");?>
+                    <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                  </div>
                 <?php } ?>
                 <!-- Form Elements -->
                 <form class="form-horizontal row-fluid" name="Category" method="post" >
