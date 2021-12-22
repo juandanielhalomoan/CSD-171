@@ -76,3 +76,48 @@ Perangkat keras malfungsi dan jaringan yang kurang mendukung.  | Adanya kondisi 
 Data Source  | Kurangnya informasi Data | Menghambat implementasi website  | Mencari data open source
 financial  | Membutuhkan uang untuk deployment website | Tidak dapat mendeploy/hosting website  | Mencari sebuah layanan hosting gratis
 Ujian  | Terdapat ujian dari kampus | Menghambat implementasi website  | Mempersiapkan Materi Kuliah
+
+
+
+## Installation
+
+Install project with Xampp
+
+```bash
+https://www.apachefriends.org/download.html
+
+```
+
+
+    
+## Run Locally
+
+Go to the project directory
+
+```bash
+  move to folder xampp and click folder htdocs
+```
+
+Clone the project
+```bash
+  git clone https://github.com/donjuan136/CSD-171.git
+```
+
+
+
+
+Start the server
+
+```bash
+   start Xampp Control Panel and check MYSQL + Apache
+```
+
+```bash
+   type localhost and click phpMyAdmin
+```
+```bash
+   create new database and type name database "balispeakup"
+```
+```bash
+   import database select from folder db
+
