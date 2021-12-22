@@ -285,45 +285,6 @@
       </div>
     </section><!-- End F.A.Q Section -->
 
-    <!-- ======= Team Section ======= -->
-    <section id="team" class="team">
-      <div class="container box" style="text-align: center;">
-        
-
-        <div class="section-title" data-aos="fade-up">
-          <h2>Team</h2>
-          <p>Developer</p>
-        </div>
-
-        <div class="row teambsp">
-
-          <div class="col-xl-3 col-lg-4 col-md-6" data-aos="zoom-in" data-aos-delay="200">
-            <div class="member">
-              <img src="assets1/img/team/team-2.jpg" class="img-fluid" alt="">
-              <div class="member-info">
-                <div class="member-info-content">
-                  <h4>Eka Nadya</h4>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-xl-3 col-lg-4 col-md-6" data-aos="zoom-in" data-aos-delay="300">
-            <div class="member">
-              <img src="assets1/img/team/team-3.jpg" class="img-fluid" alt="">
-              <div class="member-info">
-                <div class="member-info-content">
-                  <h4>Juan Daniel</h4>
-                </div>
-              </div>
-            </div>
-          </div>
-
-        </div>
-
-      </div>
-    </section><!-- End Team Section -->
-
     <!-- ======= Clients Section ======= -->
     <section class="testi">
       <div class="container">
