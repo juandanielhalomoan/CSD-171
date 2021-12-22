@@ -12,7 +12,7 @@
 
 ## Judul Proyek : Bali SpeakUp 
 
-##Executive Summary: 
+## Executive Summary: 
 Kekerasan dapat dialami setiap orang. Bentuk kekerasan yang terjadi dapat berupa diskriminasi, penganiayaan, kekerasan seksual seperti pemerkosaan dan kasus bullying. Kasus kekerasan terus mengalami peningkatan dari tahun ke tahun. Menurut Kemen PPPA mencatat terdapat 4.696 kasus kekerasan sejak 1 Januari - 19 Mei 2021. Banyak orang yang pernah mengalami kekerasan memutuskan untuk tidak melaporkan kekerasan yang dialaminya ke pihak berwajib. Berdasarkan survey dari IJRS dan INFID tahun 2020 menyatakan bahwa hal tersebut dikarenakan adanya rasa takut, malu, serta masih kurangnya pengetahuan/informasi terkait mekanisme pelaporan. Maka dari itu, kami berencana membangun website sebagai platform untuk melaporkan kasus-kasus kekerasan di tengah masyarakat.
 
 ## Project Scope & Deliverables: 
