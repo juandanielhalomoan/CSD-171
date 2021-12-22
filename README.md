@@ -77,7 +77,7 @@ Data Source  | Kurangnya informasi Data | Menghambat implementasi website  | Men
 financial  | Membutuhkan uang untuk deployment website | Tidak dapat mendeploy/hosting website  | Mencari sebuah layanan hosting gratis
 Ujian  | Terdapat ujian dari kampus | Menghambat implementasi website  | Mempersiapkan Materi Kuliah
 
-
+# Quick Start
 
 ## Installation
 
