@@ -1,14 +1,13 @@
 -- phpMyAdmin SQL Dump
--- version 4.9.2
+-- version 5.1.1
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Waktu pembuatan: 19 Des 2021 pada 06.34
--- Versi server: 10.4.6-MariaDB
--- Versi PHP: 7.3.9
+-- Generation Time: Dec 22, 2021 at 03:44 PM
+-- Server version: 10.4.22-MariaDB
+-- PHP Version: 8.0.13
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
-SET AUTOCOMMIT = 0;
 START TRANSACTION;
 SET time_zone = "+00:00";
 
@@ -19,13 +18,13 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8mb4 */;
 
 --
--- Database: `bsp2`
+-- Database: `balispeakup`
 --
 
 -- --------------------------------------------------------
 
 --
--- Struktur dari tabel `admin`
+-- Table structure for table `admin`
 --
 
 CREATE TABLE `admin` (
@@ -35,7 +34,7 @@ CREATE TABLE `admin` (
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 --
--- Dumping data untuk tabel `admin`
+-- Dumping data for table `admin`
 --
 
 INSERT INTO `admin` (`id`, `username`, `password`) VALUES
@@ -44,7 +43,7 @@ INSERT INTO `admin` (`id`, `username`, `password`) VALUES
 -- --------------------------------------------------------
 
 --
--- Struktur dari tabel `kabupaten`
+-- Table structure for table `kabupaten`
 --
 
 CREATE TABLE `kabupaten` (
@@ -54,7 +53,7 @@ CREATE TABLE `kabupaten` (
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 --
--- Dumping data untuk tabel `kabupaten`
+-- Dumping data for table `kabupaten`
 --
 
 INSERT INTO `kabupaten` (`id`, `nama_kabupaten`, `tanggal_dibuat`) VALUES
@@ -71,7 +70,7 @@ INSERT INTO `kabupaten` (`id`, `nama_kabupaten`, `tanggal_dibuat`) VALUES
 -- --------------------------------------------------------
 
 --
--- Struktur dari tabel `kategori_laporan`
+-- Table structure for table `kategori_laporan`
 --
 
 CREATE TABLE `kategori_laporan` (
@@ -82,7 +81,7 @@ CREATE TABLE `kategori_laporan` (
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 --
--- Dumping data untuk tabel `kategori_laporan`
+-- Dumping data for table `kategori_laporan`
 --
 
 INSERT INTO `kategori_laporan` (`id`, `nama_kategori`, `deskripsi_kategori`, `tanggal_dibuat`) VALUES
@@ -95,7 +94,7 @@ INSERT INTO `kategori_laporan` (`id`, `nama_kategori`, `deskripsi_kategori`, `ta
 -- --------------------------------------------------------
 
 --
--- Struktur dari tabel `laporan_user`
+-- Table structure for table `laporan_user`
 --
 
 CREATE TABLE `laporan_user` (
@@ -113,26 +112,26 @@ CREATE TABLE `laporan_user` (
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 --
--- Dumping data untuk tabel `laporan_user`
+-- Dumping data for table `laporan_user`
 --
 
 INSERT INTO `laporan_user` (`laporan_id`, `id_user`, `kategori`, `nama_korban`, `kabupaten`, `alamat`, `detail_laporan`, `file_laporan`, `tanggal_dibuat`, `status`, `sifat_laporan`) VALUES
-(8, 1, 2, 'jsdkcs', 'Denpasar', 'baajs', 'ajsxjab', '7cb68eb215ddd4ed94b14b1ed59d366a.jpg', '2021-12-16 11:56:12', NULL, 'rahasia'),
-(9, 1, 4, 'saksad', 'Bangli', 'nazxajbsjs', 'asjxak', '', '2021-12-16 12:00:27', 'Selesai diproses', 'anonim'),
-(10, 1, 5, 'mskam', 'Bangli', 'jsxaiia', 'sxianjiia', '9f8316535aa6b3e9222cb7995f7be91f.jpg', '2021-12-16 12:01:07', NULL, 'tampilkan'),
-(11, 1, 1, 'sxzc', 'Badung', 'sscxzsc', 'sxczsc', '', '2021-12-17 14:06:05', NULL, 'sxzc'),
-(12, 1, 2, 'xzxz', 'Denpasar', 'sxczcssxz', 'axs', '', '2021-12-17 14:06:49', 'Sedang diproses', 'anonim'),
-(13, 1, 6, 'nbkn', 'Badung', 'mnkkk', 'bhbkjojn', '', '2021-12-18 14:27:08', 'Selesai diproses', 'anonim'),
-(14, 1, 2, ' mkllml', 'Denpasar', 'bhbjhbk', 'njnknj', '', '2021-12-18 14:27:27', NULL, ' mkllml'),
-(15, 1, 4, 'n nkk', 'Jembrana', 'mnkn kn', 'n  jkkj jnk', '', '2021-12-18 14:27:46', NULL, 'rahasia'),
-(16, 1, 4, ' mkmll', 'Buleleng', ' nm nk m', ' nmnk', '', '2021-12-18 14:28:04', 'Selesai diproses', 'anonim'),
-(17, 1, 4, 'mm,ml', 'Buleleng', ' ,mklnlkml', 'bjhbjhbkjn', '', '2021-12-18 14:30:37', 'Sedang diproses', 'mm,ml'),
-(18, 1, 4, 'mnk', 'Gianyar', 'nk', 'ksdadk', '', '2021-12-19 05:21:35', NULL, 'rahasia');
+(19, 4, 1, 'jodi kurniawan', 'Denpasar', 'jl pidada lX no1', 'Tolong di tindak lanjuti mengenai korban penyekapan di jl pidada lX no1', 'penyekapan.jpg', '2021-12-22 12:36:27', 'Selesai diproses', 'jodi kurniawan'),
+(20, 9, 2, 'Naomi Juliana', 'Badung', 'jl badung merdeka Xll', 'Ada seorang ibu rumah tangga bernama Mariam yang tidak mampu menahan tangis dikarenakan disiksa oleh suami,  Saya sungguh miris melihat ini, tolong ditanggapi pak', 'penyiksaan.jpg', '2021-12-22 14:04:15', 'Sedang diproses', 'Naomi Juliana'),
+(21, 5, 4, 'Arkan Wijdan', 'Bangli', 'jl Bangli llV no3', 'Tolong saya pak/bu saya dibully oleh teman sekelas saya dikarenakan saya tidak memberikan contekan ulangan akhir sekolah, setiap saya di sekolah saya selalu dipukuli dan dirundung tolong bantu saya', 'bullying.jpg', '2021-12-22 14:10:39', 'Sedang diproses', 'Arkan Wijdan'),
+(22, 6, 5, 'Reza Septian', 'Buleleng', 'jl Buleleng park no89', 'waktu itu saya ditawari oleh om\" berusia 40 tahun dia mengiming imingi uang senilai 100 rb,jika saya menuruti permintaanya. setelah saya menuruti permintaan tersebut saya dibawa ke tempat sepi dan dilecehkan secara brutal tolong sayaaa', '', '2021-12-22 14:14:38', 'Selesai diproses', 'Reza Septian'),
+(23, 7, 6, 'Alpi syahdan', 'Gianyar', 'jl Gianyar no19', 'Saya mengeluhkan mengenai tindak kekerasan ayah saya terhadap saya. karena setiap dia pulang kerumah dalam keadaan mabuk, saya selalu dipukuli oleh dia ', '', '2021-12-22 14:19:58', 'Selesai diproses', 'Alpi syahdan'),
+(24, 8, 2, 'Rio Prasetyo', 'Jembrana', 'jl Jembrana', 'Setiap orang tua saya berkelahi, saya selalu dipukuli oleh ibu saya karena dia sangat membeci ayah saya dan melepaskan hasrat emosi kepada saya', '', '2021-12-22 14:21:49', 'Selesai diproses', 'Rio Prasetyo'),
+(25, 10, 5, 'Remida Agustina', 'Karangasem', 'jl Karangasem no3', 'Saya mengeluhkan tindak pelecehan terhadap ayah tiri saya, ketika ibu saya bekerja saya dan ayah tiri saya dirumah dan dia selalu menggoda saya dan memberikan sentuhan fisik ke area sensitif', '', '2021-12-22 14:24:50', 'Sedang diproses', 'Remida Agustina'),
+(26, 10, 6, 'Andini septiani', 'Karangasem', 'jl Karangasem no44', 'Kepada Yth, tolong ditindak lanjuti mengenai penyiksaan seorang anak berusia 6 tahun di jln karangasem, dia dipaksa oleh orang tuanya untuk setiap hari mengemis dan mencuri. selesai bekerja dia wajib menyetorkan hasilnya kepada ayahnya', '', '2021-12-22 14:30:45', 'Sedang diproses', 'anonim'),
+(27, 3, 4, 'Juan Daniel', 'Klungkung', 'jl Klungkung asem no2', 'Tolong bantu saya menangani tindak kekerasan teman sekolah saya, setiap saya dateng kesekolah saya selalu dipalak uang sebesar 3000 bahkan parahnya saya selalu menjadi bahan suruhan untuk mengikuti setiap perintah yang dia berikan, jika saya menolaknya saya selalu dipukuli ', '', '2021-12-22 14:33:52', 'Selesai diproses', 'Juan Daniel'),
+(28, 12, 5, 'Adang Pirman', 'Tabanan', 'jl Tabanan Merdeka no2', 'Tolong bantu saya mengenai orang aneh yang ada dipos rw08, ketika saya melewati tempat tersebut saya selalu diminta untuk berbuat aneh kepada pelaku tersebut', '', '2021-12-22 14:38:49', 'Selesai diproses', 'anonim'),
+(29, 11, 1, 'Eisent Hower', 'Tabanan', 'jl Tabanan Atas no4', 'ada seorang anak berusia 9 tahun dia culik oleh 3 orang dan membawanya menggunakan mobil kijang inova no platnya DK6558, tolong di tindak lanjuti mengenai korban penyekapan di daerah tabanan atas,', '', '2021-12-22 14:42:07', 'Sedang diproses', 'anonim');
 
 -- --------------------------------------------------------
 
 --
--- Struktur dari tabel `status_laporan`
+-- Table structure for table `status_laporan`
 --
 
 CREATE TABLE `status_laporan` (
@@ -144,7 +143,7 @@ CREATE TABLE `status_laporan` (
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 --
--- Dumping data untuk tabel `status_laporan`
+-- Dumping data for table `status_laporan`
 --
 
 INSERT INTO `status_laporan` (`id_status`, `laporan_id`, `status`, `remark`, `tanggal_remark`) VALUES
@@ -160,12 +159,23 @@ INSERT INTO `status_laporan` (`id_status`, `laporan_id`, `status`, `remark`, `ta
 (10, 12, 'Sedang diproses', 'n mn', '2021-12-19 05:25:00'),
 (11, 16, 'Selesai diproses', 'kklknk', '2021-12-19 05:26:43'),
 (12, 17, 'Sedang diproses', 'scsdfds', '2021-12-19 05:26:59'),
-(13, 13, 'Selesai diproses', 'nmm', '2021-12-19 05:27:19');
+(13, 13, 'Selesai diproses', 'nmm', '2021-12-19 05:27:19'),
+(14, 19, 'Selesai diproses', 'makasih', '2021-12-22 12:37:47'),
+(15, 20, 'Sedang diproses', 'terima kasih atas pelaporannya', '2021-12-22 14:05:02'),
+(16, 21, 'Sedang diproses', 'sedang diproses', '2021-12-22 14:11:55'),
+(17, 22, 'Selesai diproses', 'sudah diproses', '2021-12-22 14:15:06'),
+(18, 23, 'Selesai diproses', 'sudah diproses', '2021-12-22 14:25:17'),
+(19, 24, 'Selesai diproses', 'sudah diproses', '2021-12-22 14:25:35'),
+(20, 25, 'Sedang diproses', 'sedang diproses', '2021-12-22 14:25:49'),
+(21, 26, 'Sedang diproses', 'sedang ditindak lanjuti', '2021-12-22 14:31:06'),
+(22, 27, 'Selesai diproses', 'selesai diproses', '2021-12-22 14:34:44'),
+(23, 28, 'Selesai diproses', 'sudah diproses', '2021-12-22 14:42:39'),
+(24, 29, 'Sedang diproses', 'sedang diproses', '2021-12-22 14:42:54');
 
 -- --------------------------------------------------------
 
 --
--- Struktur dari tabel `users`
+-- Table structure for table `users`
 --
 
 CREATE TABLE `users` (
@@ -181,93 +191,102 @@ CREATE TABLE `users` (
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 --
--- Dumping data untuk tabel `users`
+-- Dumping data for table `users`
 --
 
 INSERT INTO `users` (`id`, `nama_lengkap`, `email`, `password`, `nomor_telp`, `kabupaten`, `alamat`, `tanggal_regis`, `status`) VALUES
 (1, 'latiras', 'latiras123@gmail.com', '202cb962ac59075b964b07152d234b70', 123, 'Denpasar', 'www', '2021-12-07 23:47:19', 1),
 (2, 'aa123', 'aa123@gmail.com', '81dc9bdb52d04dc20036dbd8313ed055', 1234, 'Denpasar', 'cxzxss', '2021-12-08 11:10:29', 1),
-(3, 'juan', 'junker6.jd@gmail.com', '202cb962ac59075b964b07152d234b70', 81298505259, 'jakarta', 'kp. tanah merah atas', '2021-12-09 12:32:48', 1);
+(3, 'juan', 'junker6.jd@gmail.com', '202cb962ac59075b964b07152d234b70', 81298505259, 'jakarta', 'kp. tanah merah atas', '2021-12-09 12:32:48', 1),
+(4, 'Jodi Kurniawan', 'jodikurniawan@gmail.com', '202cb962ac59075b964b07152d234b70', 8127846577, NULL, NULL, '2021-12-22 12:28:51', 1),
+(5, 'ArkanWijdan', 'arkanwijdan@gmail.com', '202cb962ac59075b964b07152d234b70', 83746628172, NULL, NULL, '2021-12-22 12:29:16', 1),
+(6, 'RezaSeptian', 'rezaseptian@gmail.com', '202cb962ac59075b964b07152d234b70', 876652374612, NULL, NULL, '2021-12-22 12:29:40', 1),
+(7, 'AlpiSyahdan', 'alpisyahdan@gmail.com', '202cb962ac59075b964b07152d234b70', 87263551243, NULL, NULL, '2021-12-22 12:30:23', 1),
+(8, 'RioPrasetyo', 'rioprasetyo@gmail.com', '202cb962ac59075b964b07152d234b70', 8374656123, NULL, NULL, '2021-12-22 12:30:58', 1),
+(9, 'NaomiJuliana', 'naomijuliana@gmail.com', '202cb962ac59075b964b07152d234b70', 87763145, NULL, NULL, '2021-12-22 12:31:22', 1),
+(10, 'RemidaAgustina', 'remidaagustina@gmail.com', '202cb962ac59075b964b07152d234b70', 891341321, NULL, NULL, '2021-12-22 14:22:42', 1),
+(11, 'EisentHower', 'eisenthower@gmail.com', '202cb962ac59075b964b07152d234b70', 8931124124, NULL, NULL, '2021-12-22 14:35:41', 1),
+(12, 'AdangPirman', 'adangpirman@gmail.com', '202cb962ac59075b964b07152d234b70', 831741212, NULL, NULL, '2021-12-22 14:37:21', 1);
 
 --
 -- Indexes for dumped tables
 --
 
 --
--- Indeks untuk tabel `admin`
+-- Indexes for table `admin`
 --
 ALTER TABLE `admin`
   ADD PRIMARY KEY (`id`);
 
 --
--- Indeks untuk tabel `kabupaten`
+-- Indexes for table `kabupaten`
 --
 ALTER TABLE `kabupaten`
   ADD PRIMARY KEY (`id`);
 
 --
--- Indeks untuk tabel `kategori_laporan`
+-- Indexes for table `kategori_laporan`
 --
 ALTER TABLE `kategori_laporan`
   ADD PRIMARY KEY (`id`);
 
 --
--- Indeks untuk tabel `laporan_user`
+-- Indexes for table `laporan_user`
 --
 ALTER TABLE `laporan_user`
   ADD PRIMARY KEY (`laporan_id`);
 
 --
--- Indeks untuk tabel `status_laporan`
+-- Indexes for table `status_laporan`
 --
 ALTER TABLE `status_laporan`
   ADD PRIMARY KEY (`id_status`);
 
 --
--- Indeks untuk tabel `users`
+-- Indexes for table `users`
 --
 ALTER TABLE `users`
   ADD PRIMARY KEY (`id`);
 
 --
--- AUTO_INCREMENT untuk tabel yang dibuang
+-- AUTO_INCREMENT for dumped tables
 --
 
 --
--- AUTO_INCREMENT untuk tabel `admin`
+-- AUTO_INCREMENT for table `admin`
 --
 ALTER TABLE `admin`
   MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
 
 --
--- AUTO_INCREMENT untuk tabel `kabupaten`
+-- AUTO_INCREMENT for table `kabupaten`
 --
 ALTER TABLE `kabupaten`
   MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=14;
 
 --
--- AUTO_INCREMENT untuk tabel `kategori_laporan`
+-- AUTO_INCREMENT for table `kategori_laporan`
 --
 ALTER TABLE `kategori_laporan`
   MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=8;
 
 --
--- AUTO_INCREMENT untuk tabel `laporan_user`
+-- AUTO_INCREMENT for table `laporan_user`
 --
 ALTER TABLE `laporan_user`
-  MODIFY `laporan_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=19;
+  MODIFY `laporan_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=30;
 
 --
--- AUTO_INCREMENT untuk tabel `status_laporan`
+-- AUTO_INCREMENT for table `status_laporan`
 --
 ALTER TABLE `status_laporan`
-  MODIFY `id_status` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=14;
+  MODIFY `id_status` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=25;
 
 --
--- AUTO_INCREMENT untuk tabel `users`
+-- AUTO_INCREMENT for table `users`
 --
 ALTER TABLE `users`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=13;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
