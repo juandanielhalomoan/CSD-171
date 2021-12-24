@@ -1,5 +1,18 @@
+![balispeakup](https://user-images.githubusercontent.com/47490009/147358616-ef80544b-0a80-4f26-b598-04cff6462db7.png)
 
-# CSD-171
+
+<h3 align="left">Languages and Tools:</h3>
+<p align="left"> <a href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40"/> </a> <a href="https://www.w3.org/html/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/> </a> <a href="https://www.mysql.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" alt="mysql" width="40" height="40"/> </a> <a href="https://www.php.net" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/php/php-original.svg" alt="php" width="40" height="40"/> </a> </p>
+
+[![MIT License](https://img.shields.io/apm/l/atomic-design-ui.svg?)](https://github.com/tterb/atomic-design-ui/blob/master/LICENSEs)
+[![GPLv3 License](https://img.shields.io/badge/License-GPL%20v3-yellow.svg)](https://opensource.org/licenses/)
+[![AGPL License](https://img.shields.io/badge/license-AGPL-blue.svg)](http://www.gnu.org/licenses/agpl-3.0)
+
+## Authors
+
+- [@JuanDaniel](https://www.linkedin.com/in/juandanielhalomoan/)
+- [@EkaNadya](https://www.linkedin.com/in/eka-nadya-10b2171ab/)
+
 
 ## Team ID: CSD-171
 
@@ -40,7 +53,7 @@ Minggu Ke- | Kegiatan |
 ## Project Schedule: 
 Project Schedule merupakan penjadwalan proyek yang pada kali ini disajikan dalam bentuk gantt chart. Berikut merupakan link untuk melihat project schedule yang telah disusun.
 
-https://docs.google.com/spreadsheets/d/1UzUkuqCVQJGAPX1xu4FDUNGo-r-7SNxC/edit?usp=sharing&ouid=103363979936135018622&rtpof=true&sd=true
+- [Gantt Chart](https://docs.google.com/spreadsheets/d/1UzUkuqCVQJGAPX1xu4FDUNGo-r-7SNxC/edit?usp=sharing&ouid=103363979936135018622&rtpof=true&sd=true)
 
 UserFlow
 * ![flowchart](https://user-images.githubusercontent.com/47490009/144805497-c2c5ff63-0842-44d8-94b6-d0e08919cc88.png)
