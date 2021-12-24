@@ -1,4 +1,4 @@
-![balispeakup](https://user-images.githubusercontent.com/47490009/147358616-ef80544b-0a80-4f26-b598-04cff6462db7.png)
+![balispeakup2](https://user-images.githubusercontent.com/47490009/147360775-beb793bd-5aa7-4a4b-8546-baf5b35987cc.JPG)
 
 
 <h3 align="left">Languages and Tools:</h3>
