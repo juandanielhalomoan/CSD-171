@@ -15,8 +15,8 @@
 - [@JuanDaniel](https://www.linkedin.com/in/juandanielhalomoan/)
 - [@EkaNadya](https://www.linkedin.com/in/eka-nadya-10b2171ab/)
 
-## presentation
-- [@Youtube](https://www.youtube.com/watch?v=4qpA1ymvDO0/)
+## Presentation
+- [@Pitch-Deck](https://www.youtube.com/watch?v=4qpA1ymvDO0/)
 - [@Demo-App](https://www.youtube.com/watch?v=IIAAR4Wt2j4)
 
 ## Team ID: CSD-171
