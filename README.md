@@ -16,7 +16,8 @@
 - [@EkaNadya](https://www.linkedin.com/in/eka-nadya-10b2171ab/)
 
 ## presentation
-[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg)](https://www.youtube.com/watch?v=4qpA1ymvDO0)
+- [@Youtube](https://www.youtube.com/watch?v=4qpA1ymvDO0/)
+- [@Demo-App](https://www.youtube.com/watch?v=IIAAR4Wt2j4)
 
 ## Team ID: CSD-171
 
